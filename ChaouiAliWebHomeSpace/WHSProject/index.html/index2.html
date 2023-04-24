@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to your home space</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			color: #333;
+		}
+		
+		button {
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			font-size: 20px;
+			cursor: pointer;
+			margin: 10px;
+			transition: background-color 0.2s ease;
+			color: #fff;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		
+		button.files {
+			background-color: #ff69b4;
+		}
+		
+		button.dirs {
+			background-color: #0077c2;
+		}
+		
+		button.space {
+			background-color: #1abc9c;
+		}
+        button.Logout {
+			background-color: #1c210f;
+		}
+
+		
+		button:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to your home space</h1>
+    <a href="/NbrFiles"><button class="files">Files</button></a>
+	<a href="/NbrDir"><button class="dirs">Dirs</button></a>
+	<a href="/space"><button class="space">Space</button></a>
+	<a href="/Telecharger"><button class="Download">Download</button></a>
+    <a href="/logout"><button class="Logout">Logout</button></a>
+    
+    
+    <input type="search" placeholder="Search ..." name="" id="">
+    <table><thead><th>dossier|</th><th>date de modification|</th><th>taille</th></thead></table>
+
+</body>
+</html>
